@@ -1,0 +1,12 @@
+org\glockinmybape\jtattyseller\CommandSeller.class
+org\glockinmybape\jtattyseller\Econom.class
+org\glockinmybape\jtattyseller\ItemBuilder.class
+org\glockinmybape\jtattyseller\TattySeller$2.class
+org\glockinmybape\jtattyseller\CommandSeller$1.class
+org\glockinmybape\jtattyseller\Config.class
+org\glockinmybape\jtattyseller\TattySeller$1.class
+org\glockinmybape\jtattyseller\EventListener.class
+org\glockinmybape\jtattyseller\PlaceHolders.class
+org\glockinmybape\jtattyseller\GUI.class
+org\glockinmybape\jtattyseller\TattySeller.class
+org\glockinmybape\jtattyseller\Cooldowns.class

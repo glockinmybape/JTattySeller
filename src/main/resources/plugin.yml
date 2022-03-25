@@ -1,0 +1,8 @@
+name: JTattySeller
+version: '1.0'
+main: org.glockinmybape.JTattySeller.TattySeller
+authors: [ glockinmybape ]
+description: JTattySeller
+softdepend: [HolographicDisplays, PlaceHolderAPI]
+commands:
+  seller:

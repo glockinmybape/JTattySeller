@@ -1,0 +1,50 @@
+#Право на создание предмета: tattyseller.admin
+#Placeholders:
+# %TattySeller_time_min% - Минуты до обновления меню
+# %TattySeller_time_sec% - Секунды до обновления меню
+
+#То, на сколько дешевле будет становится предмет по мере приобретения
+Mitigation: 2
+time-to-update-menu: 2400000
+Hologram-text: '§7%min%:%sec%'
+Settings:
+  gui:
+    name: '§0Барыжник:'
+    glass:
+      enabled: true
+      material: STAINED_GLASS_PANE
+      data: 10
+      name: ' '
+    glass-closed:
+      enabled: true
+      material: STAINED_GLASS_PANE
+      data: 14
+      name: '§4✖'
+  guiconfirm:
+    name: '§0Подтвердите обмен:'
+    glass:
+      enabled: true
+      material: STAINED_GLASS_PANE
+      data: 10
+      name: ' '
+    glass-closed:
+      enabled: true
+      material: STAINED_GLASS_PANE
+      data: 14
+      name: '§4✖'
+messages:
+  noperm: '&7У вас недостаточно прав!'
+  no-items: '&7В вашем инвентаре нет подходящих предметов!'
+  sell-success: '&7Вы успешно продали предмет и получили %price%'
+  not-integer: '&7В 3 аргументе должна быть стоимость товара!'
+  usage-create: '&7Использование: /seller create [имя] [стоимость]'
+  name-exists: '&7Данное имя предмета уже используется'
+  holo-not-exists: '&7Голограмма не создана! Её нельзя переместить'
+  menu-null: '&7Администрация не настроила предметы для меню! Открыть не получится'
+items:
+  lore:
+    - ''
+    - '&fСтоимость: &b%price%'
+    - '&fНачальная стоимость: &b%price_standart%'
+    - '&fКоличество продаж: &b%sells%'
+    - ''
